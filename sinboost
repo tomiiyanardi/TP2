@@ -1,0 +1,87 @@
+!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payaseria</title>
+    <style>
+        .titu {
+            color:crimson;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+        }
+
+        .col {
+            color: rgba(167, 6, 6, 0.555);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .centro {
+            display: flex;
+            justify-content: center;
+        }
+
+        .boton-color {
+            display: flex;
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .altexto{
+            width: 70%;
+        }
+
+        body{ 
+            background-color: rgb(185, 185, 187); /* Cambia el color de fondo a azul */
+            margin: 0; /* Elimina el margen predeterminado del cuerpo */
+            padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+            height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana gráfica */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centro">
+        <h1 class="centro titu">SE OFRECE SERVICIO DE PAYASOS</h1>
+    </div> <br><br><br>
+    <div class="centro">
+        <img class="img"
+            src="https://imgs.search.brave.com/gTkmsFgxcjvqVjs7gvs8s-WMhr_qXhbV-l3riGn-YVo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA4/MjAwMjgzL2VzL2Zv/dG8vZmVsaXotbXVq/ZXItcGF5YXNvLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1I/RjFROVBrS3BYSnVm/Ujk1aEJ5cG1ybE40/cnVoWVdOOXZ4VGox/U1JMdzBVPQ"
+            alt="imgpayaso" width="200" height="200">
+        <div class="altexto">
+        <h2 class="col">Payasa beta</h2>
+        <h3 class="col">300u$d/hora</h3>
+        <button class="centro boton-color">SOLICITAR YA</button>
+        </div>
+    </div> <br> <br> <br>
+    <div class="centro">
+        <img class="img"
+            src="https://imgs.search.brave.com/ll9NbsFLlbRh2iAAmywG5p9bNL43kXHgf7lKKSi3fZk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTA4/MjI1NjIxL2VzL2Zv/dG8vZW1wcmVzYXJp/by1wYXlhc28uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVhk/VUh0VHRTVm1kbXFh/MXlJaDZacnNiZWQ1/aGMyOVBxNGdlZ0Ri/bk9XbTA9"
+            alt="imgpayaso2" width="200" height="200">
+        <div class="altexto">
+        <h2 class="col">Payaso experto</h2>
+        <h3 class="col">500u$d/hora</h3>
+        <button class="centro boton-color">SOLICITAR YA</button>
+        </div>
+    </div> <br> <br> <br>
+    <div class="centro">
+        <img class="img"
+            src="https://imgs.search.brave.com/77ybJBo9xoOZe0dMtsHW4vlLBcjkdYbG2As9NBDTYDY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU1/MDk3NjAxL2VzL2Zv/dG8va2lsbGVyLXBh/eWFzby1jb24tdW4t/bWFsLXNvbnJpc2Eu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PXVKalNnQkpRYjBl/Yy1IcE1ncHVtNGZi/VWxxeVQ2QkRaMk9k/ZE1vSndCU0k9"
+            alt="imgpayaso3" width="200" height="200">
+        <div class="altexto">
+        <h2 class="col">Payaso malevolo</h2>
+        <h3 class="col">1400u$d/hora</h3>
+        <button class="centro boton-color">SOLICITAR YA</button>
+        </div> </div> <br> <br> <br>
+        <h3 style="justify-content: center ;font-size 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; display: flex;">Copyright 1998 @Company</h3> <br> <br>
+</body>
+</html>
